@@ -20,13 +20,32 @@ Repo ini merupakan repository untuk mngerjakan UTS matkul Pengolahan Citr Digita
   - NumPy (Numerical Python) :library Python yang memberikan dukungan untuk operasi matematika pada array dan matriks multidimensi, library ini menyediakan fungsi- fungsi untuk operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, pembagian, dan fungsi-fungsi lain.
 
 - Selanjutnya Baca Imagenya
-  image_path = 'nana.jpeg'
-  image = cv2.imread(image_path)
+
+  image_path = 'nana.jpeg': Mendefinisikan variabel image_path yang berisi path atau lokasi dari gambar yang ingin dibaca.
+
+  image = cv2.imread(image_path): Menggunakan fungsi cv2.imread() dari library OpenCV untuk membaca gambar dari path yang telah ditentukan sebelumnya (image_path). Hasil dari fungsi ini adalah representasi gambar dalam bentuk matriks piksel. Variabel image akan menyimpan matriks tersebut untuk digunakan dalam proses berikutnya, seperti pemrosesan gambar atau analisis.
+
 - Mengubah format warna gambar dari BGR (Blue, Green, Red) ke RGB (Red, Green, Blue)
   img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
+  img_rgb: Variabel yang akan menampung gambar hasil konversi.
+
+  cv2.cvtColor(): Fungsi dari library OpenCV untuk melakukan konversi warna. Parameter pertamanya adalah gambar yang ingin dikonversi, dan parameter kedua adalah konstanta yang menentukan jenis konversi warna yang ingin dilakukan.
+
+  img: Variabel yang berisi gambar dalam format aslinya.
+
+  cv2.COLOR_BGR2RGB: Konstanta yang menunjukkan jenis konversi warna yang ingin dilakukan. Dalam hal ini, konversi dilakukan dari format BGR (Blue, Green, Red) ke RGB (Red, Green, Blue).
+
 - konversi gambar dari ruang warna BGR ke HSV
   hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+  hsv_img: Variabel yang akan menampung gambar hasil konversi.
+
+  cv2.cvtColor(): Fungsi dari library OpenCV untuk melakukan konversi warna. Parameter pertamanya adalah gambar yang ingin dikonversi, dan parameter kedua adalah konstanta yang menentukan jenis konversi warna yang ingin dilakukan.
+
+  img: Variabel yang berisi gambar dalam format aslinya.
+
+  cv2.COLOR_BGR2HSV: Konstanta yang menunjukkan jenis konversi warna yang ingin dilakukan. Dalam hal ini, konversi dilakukan dari format BGR (Blue, Green, Red) ke HSV (Hue, Saturation, Value).
 
 - RENTANG NILAI HSV MASINNG - MASING WARNA
 
