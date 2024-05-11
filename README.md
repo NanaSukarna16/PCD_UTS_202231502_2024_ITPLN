@@ -112,6 +112,15 @@ Repo ini merupakan repository untuk mngerjakan UTS matkul Pengolahan Citr Digita
 ![App Output](./Output/deteksi_biru.png)
 ![App Output](./Output/deteksi_merah.png)
 
+### ANALISIS KETIKA TELAH DI LAKUKAN DETEKSI CITRA
+
+Pada tahap Deteksi Citra ini yang terjadi adalah jika kita lihat gambar original nya atau gambar aslinya
+semua tulisan terlihat jelas tapi ketika di lakukan pendeteksian masing - masing warna maka ini lah yang terjadi seperti bisa di lihat dari hasilnya.
+
+- Untuk deteksi warna hijau maka huruf dengan warna hijau akan sedikit terlihatnya
+- Untuk deteksi warna biru maka huruf dengan warna biru akan sedikit terlihatnya
+- Untuk deteksi warna merah maka huruf dengan warna merah akan sedikit terlihatnya
+
 ## 2 AMBANG BATAS
 
 ### SOURCE CODE AMBANG BATAS DAN LANGKAH - LANGKAH
